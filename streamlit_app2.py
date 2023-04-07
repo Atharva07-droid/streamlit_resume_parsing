@@ -1,4 +1,3 @@
-!pip install pypdf2
 import streamlit as st 
 import PyPDF2
 import pdfplumber
