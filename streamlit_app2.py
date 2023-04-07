@@ -52,8 +52,6 @@ def cleanResume(text):
     text = re.sub('\s+', ' ', text)  # remove extra whitespace
     return text
     
-resumeDataSet2 = cleanResume(text)
-    
 #logic
 def getResult(JD_txt,resume_txt):
     content = [JD_txt,resume_txt]
